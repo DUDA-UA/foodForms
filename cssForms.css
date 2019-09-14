@@ -15,6 +15,7 @@ form{
     grid-gap: 5px;
     height: auto;
     margin: 0;
+    background-color: yellow;
 }
 
 h1{
@@ -35,6 +36,7 @@ legend{
     display:inline-grid;
     grid-area: d;
     font-size: 20px;
+    background-color: aqua;
 }
 
 #field1 ul > li{
@@ -45,6 +47,7 @@ legend{
 #field2{
     grid-area: f;
     font-size: 20px;
+    background-color: aqua;
 }
 
 #field2 ul > li{
@@ -76,9 +79,12 @@ legend{
     grid-area: ff;
 }
 
-#pushButton1,#pushButton2{
-    display:block;
+.allButton{
+    display:inline;
     grid-area: s;
+}
+
+#pushButton1,#pushButton2{
     width: auto;
     margin: auto;
     padding: 5px;
@@ -90,10 +96,6 @@ legend{
     outline: 0 !important;
 }
 
-#pushButton1{
-    margin-left: 680px;
-}
-
 #pushButton2{
-    margin-left: 780px;
+    background-color: red;
 }
