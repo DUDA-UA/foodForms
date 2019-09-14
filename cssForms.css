@@ -56,6 +56,10 @@ legend{
     padding-bottom: 10px;
 }
 
+input:checked + label{
+    font-weight: bold;
+}
+
 .innerText{
     grid-area: t;
 }
