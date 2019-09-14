@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping list</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssForms.css">
+</head>
+
+<body>
+
+
+    <form action="" method="get">
+        <h1>Shopping list</h1>
+        <fieldset id="field1">
+            <legend>Days of a week</legend>
+            <ul class="day">
+                <li><input type="radio" name="food" value="sunday" id="sunday"><label for="sunday">Sunday</label></li>
+                <li><input type="radio" name="food" value="monday" id="monday"><label for="monday">Monday</label></li>
+                <li><input type="radio" name="food" value="tuesday" id="tuesday"><label for="tuesday">Tuesday</label>
+                </li>
+                <li><input type="radio" name="food" value="wednesday" id="wednesday"><label
+                        for="wednesday">Wednesday</label></li>
+                <li><input type="radio" name="food" value="thursday" id="thursday"><label
+                        for="thursday">Thursday</label>
+                </li>
+                <li><input type="radio" name="food" value="friday" id="friday"><label for="friday">Friday</label></li>
+                <li><input type="radio" name="food" value="saturday" id="saturday"><label
+                        for="saturday">Saturday</label>
+                </li>
+            </ul>
+        </fieldset>
+        <!-- <hr> -->
+        <fieldset id="field2">
+            <legend>The food I want to take</legend>
+            <ul class="foodCheck">
+                <li> <input type="checkbox" name="bread" id="bread" value="bread"><label for="bread">Bread</label></li>
+                <li> <input type="checkbox" name="milk" id="milk" value="milk"><label for="milk">Milk</label></li>
+                <li> <input type="checkbox" name="sugar" id="sugar" value="sugar"><label for="sugar">Sugar</label></li>
+                <li> <input type="checkbox" name="salt" id="salt" value="salt"><label for="salt">Salt</label></li>
+                <li> <input type="checkbox" name="honey" id="honey" value="honey"><label for="honey">Honey</label></li>
+                <li> <input type="checkbox" name="meat" id="meat" value="meat"><label for="meat">Meat</label></li>
+                <li> <input type="checkbox" name="floar" id="floar" value="floar"><label for="floar">Floar</label></li>
+                <li> <input type="checkbox" name="sour_cream" id="sour_cream" value="sour_cream"><label
+                        for="sour_cream">Sour cream</label></li>
+                <li> <input type="checkbox" name="cucumbers" id="cucumbers" value="cucumbers"><label
+                        for="cucumbers">Сucumbers</label></li>
+                <li> <input type="checkbox" name="tomatoes" id="tomatoes" value="tomatoes"><label
+                        for="tomatoes">Tomatoes
+                    </label></li>
+            </ul>
+        </fieldset>
+
+        <!-- <div class='innerText'>
+            <div id='dayDiv'>Day: <span id='textDay'></span></div>
+            <div id='foodDiv'>Food: <span id='textFood'></span></div>
+        </div> -->
+
+        <input type="submit" value="I choose" id="pushButton1">
+        <input type="reset" value='Delete my options' id="pushButton2">
+
+    </form>
+
+
+    <script src="forms.js"></script>
+</body>
+
+</html>

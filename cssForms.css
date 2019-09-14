@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    display: grid;
+    grid-template-areas: 
+    'h h'
+    'd d'
+    'f t'
+    's s';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 70px 370px 50px ;
+    grid-gap: 5px;
+    height: auto;
+    margin: 0;
+}
+
+h1{
+    display: block;
+    grid-area: h;
+    text-align: center;
+}
+
+legend{
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#field1{
+    display:inline-grid;
+    grid-area: d;
+    font-size: 20px;
+}
+
+#field1 ul > li{
+    display: inline;
+    padding-left: 20px;
+}
+
+#field2{
+    grid-area: f;
+    font-size: 20px;
+}
+
+#field2 ul > li{
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.innerText{
+    grid-area: t;
+}
+
+.innerText{
+    display: grid;
+    grid-template-areas: 
+    'dd'
+    'ff';
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+    margin-top: 10px;
+}
+
+#dayDiv{
+    grid-area: dd;
+}
+
+#foodDiv{
+    grid-area: ff;
+}
+
+#pushButton1,#pushButton2{
+    display:block;
+    grid-area: s;
+    width: auto;
+    margin: auto;
+    padding: 5px;
+    background-color: blue;
+    /* border: 3px solid blue; */
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0 !important;
+}
+
+#pushButton1{
+    margin-left: 680px;
+}
+
+#pushButton2{
+    margin-left: 780px;
+}
